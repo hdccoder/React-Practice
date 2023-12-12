@@ -17,7 +17,7 @@ const SingleComment = ({allComments}) => {
 
 return (
      <div>
-    <h1>{singleComment.email} {singleComment.name} {singleComment.body} </h1>
+    <h1>{singleComment.name} {singleComment.body} </h1>
     <Link to='/comments'>
         Back to Comments
     </Link>

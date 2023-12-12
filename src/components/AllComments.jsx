@@ -10,8 +10,8 @@ const AllComments = ({allComments}) => {
             {
                 allComments.map((comment) => {
                     return(
-                        <Link key={comment.id} to={`/comments/${comment.id}`}>
-                            <li>{comment.id} {comment.name}</li>
+                        <Link className="Commentz" key={comment.id} to={`/comments/${comment.id}`}>
+                            <li>{comment.name}</li>
                         </Link>
                     )
                 })

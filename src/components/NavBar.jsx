@@ -11,7 +11,7 @@ return (
     <nav>
     <Link to='/'>HomePage</Link>
     <Link to='/comments'>Comments</Link>
-    <Link to='/newcomment'>Add Comment</Link>
+    <Link to='/addcomment'>AddComment</Link>
     </nav>
 
 </div>
